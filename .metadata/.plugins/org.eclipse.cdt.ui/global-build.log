@@ -1,0 +1,29 @@
+20:55:43 **** Clean-only build of configuration Debug for project TP Laboratorio 1 ****
+rm -rf "TP Laboratorio 1.exe" src/Contabilizar.d "src/TP Laboratorio 1.d" "src/TP Laboratorio 1.o" src/Contabilizar.o 
+rm: cannot remove `TP Laboratorio 1.exe': Permission denied
+20:55:46 **** Rebuild of configuration Debug for project TP Laboratorio 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Contabilizar.o" "..\\src\\Contabilizar.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP Laboratorio 1.o" "..\\src\\TP Laboratorio 1.c" 
+gcc -o "TP Laboratorio 1.exe" "src\\Contabilizar.o" "src\\TP Laboratorio 1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file TP Laboratorio 1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:55:48 **** Incremental Build of configuration Debug for project TP Laboratorio 1 ****
+Info: Internal Builder is used for build
+gcc -o "TP Laboratorio 1.exe" "src\\Contabilizar.o" "src\\TP Laboratorio 1.o" 
+20:56:14 **** Incremental Build of configuration Debug for project TP Laboratorio 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP Laboratorio 1.o" "..\\src\\TP Laboratorio 1.c" 
+gcc -o "TP Laboratorio 1.exe" "src\\Contabilizar.o" "src\\TP Laboratorio 1.o" 
+Info: Nothing to build for TP Laboratorio 1
+20:59:29 **** Incremental Build of configuration Debug for project TP Laboratorio 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP Laboratorio 1.o" "..\\src\\TP Laboratorio 1.c" 
+gcc -o "TP Laboratorio 1.exe" "src\\Contabilizar.o" "src\\TP Laboratorio 1.o" 
+Info: Nothing to build for TP Laboratorio 1
+Info: Nothing to build for TP Laboratorio 1
+21:38:39 **** Rebuild of configuration Debug for project TP Laboratorio 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Contabilizar.o" "..\\src\\Contabilizar.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP Laboratorio 1.o" "..\\src\\TP Laboratorio 1.c" 
+gcc -o "TP Laboratorio 1.exe" "src\\Contabilizar.o" "src\\TP Laboratorio 1.o" 

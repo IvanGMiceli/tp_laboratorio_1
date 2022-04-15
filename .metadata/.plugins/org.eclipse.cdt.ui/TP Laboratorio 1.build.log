@@ -1,0 +1,8 @@
+21:38:39 **** Rebuild of configuration Debug for project TP Laboratorio 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Contabilizar.o" "..\\src\\Contabilizar.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP Laboratorio 1.o" "..\\src\\TP Laboratorio 1.c" 
+gcc -o "TP Laboratorio 1.exe" "src\\Contabilizar.o" "src\\TP Laboratorio 1.o" 
+
+21:38:41 Build Finished. 0 errors, 0 warnings. (took 2s.6ms)
+
